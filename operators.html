@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>operators</title>
+    </head>
+    <body>
+        <script>
+            var x = 1;
+            var y = "1";
+            var areEqual = x === y;
+            var areDifferent = x !== y;
+            console.log("are equal", areEqual);
+            console.log("are different", areDifferent);
+
+            var isAdult = true;
+            var passedExam = false;
+            var isHealthy = true;
+            var hasPP = false;
+            var canHaveDriverLicense = 
+            (isAdult && passedExam && isHealthy) || hasPP;
+           console.log("Can have licence:", canHaveDriverLicense);
+           
+           var sum = 0;
+           var x = 0;
+           while(sum<=10)
+           {
+               var number = Math.random();
+               sum = sum + number;
+               x++;
+           }
+
+           console.log(x, sum);
+
+
+        </script>
+    </body>
+</html>
